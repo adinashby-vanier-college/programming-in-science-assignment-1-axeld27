@@ -3,7 +3,7 @@
 def built_in_functions_max(num1, num2, num3):
     numbers = [num1, num2, num3]
     max_value = max(numbers)  
-   return max_value
+    return max_value
 
 # Function 2: Using Python built-in functions
 # This function should take three numbers as input and return their min.
