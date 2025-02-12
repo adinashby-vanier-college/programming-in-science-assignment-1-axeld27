@@ -1,29 +1,29 @@
 # Function 1: Using Python built-in functions
 # This function should take three numbers as input and return their max.
 def built_in_functions_max(num1, num2, num3):
-    numbers = [num1, num2, num3]
+    numbers = (num1, num2, num3)
     max_value = max(numbers)  
-    return max_value
+    return(max_value)
 
 # Function 2: Using Python built-in functions
 # This function should take three numbers as input and return their min.
 def built_in_functions_min(num1, num2, num3):
-    numbers = [num1, num2, num3]
+    numbers = (num1, num2, num3)
     min_value = min(numbers)  
-    return min_value
+    return(min_value)
 
 # Function 3: Conditional Statements – The If Statement
 # This function should check if a number is positive, negative, or zero and return the corresponding message.
 def check_number(number):
-    if number > 0:
-    print("positive")
+    a = 0
+    if number > a:
+        return"Positive"
     
-    elif number < 0:
-    print("negative")
+    if number < a:
+        return"Negative"
 
-    elif number == 0:
-    print("zero ")
-    return print 
+    if number == a:
+        return"Zero" 
 
 # Function 4: For Loop – Making a Star Shape
 # This function should return a string representing a star shape.
